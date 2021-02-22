@@ -1,0 +1,48 @@
+.widget{
+    padding-top: 25px;
+}
+.sponsored{
+    margin-bottom: 10px;
+    border-bottom: 1px solid grey;
+}
+.sponsored__top > span {
+    font-weight: 700;
+    color: grey;
+    margin-left: 10px;
+}
+.sponsored__item{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: transparent;
+    cursor: pointer;
+    margin: 10px 0;
+    text-decoration: none;
+}
+
+.sponsored__item:hover {
+    background-color: lightgrey;
+    border-radius: 10px;
+}
+
+.sponsored__item > img {
+    border-radius: 8px;
+    height: 110px;
+    width: 110px;
+}
+
+.sponsored__item-details {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.sponsored__item-details > h3{
+    font-size: 16px;
+    color: #050505;
+}
+
+.sponsored__item-details > p{
+    font-size: 14px;
+    color: #65676B;
+}

@@ -1,0 +1,110 @@
+.header {
+    position: sticky;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: #FFFFFF;
+    z-index: 100;
+    box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);
+
+}
+
+.header,
+.header__left,
+.header__center,
+.header__right,
+.header__info {
+    display: flex;
+    align-items: center;
+    height: 56px;
+}
+
+.header__left, .header__right {
+    justify-content: space-evenly;
+}
+
+.header__input{
+    display: flex;
+    align-items: center;
+    background-color: #eff2f5;
+    padding: 8px;
+    margin-left: 10px;
+    border-radius: 333px;
+}
+
+.header__input > input {
+    border: none;
+    background-color: transparent;
+    outline-width: 0;
+}
+.header__input>input::placeholder {
+    font-size: 15px;
+}
+
+.header__center{
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__option {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    height: 100%;
+    padding: 0 30px;
+    cursor: pointer;
+}
+
+.header__option>.MuiSvgIcon-root {
+    color: grey;
+    font-size: 30px;
+}
+
+.header__option:hover {
+    background-color: #eff2f5;
+    border-radius: 10px;
+    height: 80%;
+    border-bottom: none;
+}
+
+.header__info > h4 {
+    margin-left: 10px;
+}
+
+.header__option:first-of-type {
+    margin-left: 0;
+}
+
+.header__option--active > .MuiSvgIcon-root {
+    color: #2e81f4;
+}
+.header__option--active{
+    height: 52px;
+    border-bottom: 4px solid #2e81f4;
+}
+.header__option--active:hover {
+    height: 52px;
+    border-bottom: 4px solid #2e81f4;
+    padding: 0 30px;
+    background-color: transparent;
+    border-radius: 0;
+}
+
+.header__actions{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__actions > .MuiIconButton-root {
+    background-color: #D8DADF;
+    margin-left: 10px;
+    height: 40px;
+    width: 40px;
+}
+
+.header__actions>.MuiIconButton-root>.MuiIconButton-label>.MuiSvgIcon-root {
+    font-size: 22px;
+    color: #050505;
+}
