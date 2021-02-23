@@ -23,6 +23,16 @@ firebase lets you host all the data you want
 real time database
 Google's eco system on the back (`firebase`, `google authentication`) and `react` on the front :ties together
 
+## 🔒 Hide Firebase Environment Variables
+
+1. Create `.env` file in the root of your project & add it to `.gitignore`
+2. Copy whats inside [env.example](env.example) & modify according to your firebase env variables. Make sure each variable name starting with `REACT_APP_`
+3. Access the variables directly in your `firebase.js` using `process.env.REACT_APP_INSERT_VARIABLE_NAME_HERE`. Check [firebase.js](src/firebase.js)
+4. <b>`ALREADY DONE ✔️`</b>  To access the environment-specific file, install the env-cmd npm package using the following command: `npm install env-cmd`
+5. <b>`ALREADY DONE ✔️`</b> Change the `package.json` file `script` section to use `env-cmd` command: `"start": "env-cmd -f .env react-scripts start"`
+
+So now, when you run the `npm start` command from the terminal, it will load the environment variables from the `.env` file.
+
 ## 📕 Facebook Widgets at
 
 https://developers.facebook.com/docs/plugins/page-plugin/
