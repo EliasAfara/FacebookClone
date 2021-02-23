@@ -33,6 +33,8 @@ use the following code `<p>{new Data(timestamp?.toDate()).toUTCString}</p>`
 
 ## 📒 Firebase Hosting
 
-1. `firebase init` : firebase.json public => build
-2. `npm run build`
-3. `firebase deploy` to open a server
+1. `npm i -g firebase-tools`
+2. `firebase login`
+3. `firebase init`
+4. `npm run build`
+5. `firebase deploy`
