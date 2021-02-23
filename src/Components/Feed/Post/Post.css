@@ -1,5 +1,7 @@
 .post{
-    width: 100%;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
     margin-top: 15px;
     border-radius: 15px;
     background-color: #fff;

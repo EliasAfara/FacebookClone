@@ -1,5 +1,9 @@
 .sidebar{
-    flex: 0.33;
+    --offset: 56px;
+    flex: 1;
+    position: sticky;
+    align-self: start;
+    top: var(--offset);
     padding: 25px 10px;
 }
 
@@ -22,4 +26,21 @@
 
 .sidebarRow>.MuiSvgIcon-root {
     font-size: xx-large;
+}
+.sidebar__actions{
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 10px;
+}
+
+.sidebar__footer{
+    padding: 10px;
+    color: #65675b;
+    line-height: 1.1765;
+    font-weight: 600;
+    word-break: break-word;
+}
+
+.sidebar__footer > a{
+    text-decoration: none;
+    color: rgb(194, 170, 35);
 }

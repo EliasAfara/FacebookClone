@@ -17,12 +17,12 @@ const Widgets = () => {
           <img
             src='https://res.cloudinary.com/freecyclelebanon/image/upload/v1613940519/lfc_dqjvkj.png'
             alt='Sponsored Site'
+            draggable='false'
           />
           <div className='sponsored__item-details'>
             <h3>
-              Lebanon Freecycle: Donate <br />
-              Reusable Items & Ask for
-              <br /> Support Requests
+              Lebanon Freecycle: Donate Reusable Items & Ask for Support
+              Requests
             </h3>
             <p>lebanon-freecycle.live</p>
           </div>
@@ -30,9 +30,9 @@ const Widgets = () => {
       </div>
       <iframe
         title='facebook Iframe'
-        src='https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FFacebookforDevelopers&tabs=timeline&width=340&height=1500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId'
+        src='https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FFacebookforDevelopers&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId'
         width='340'
-        height='1500'
+        height='500'
         style={{ border: 'none', overflow: 'hidden' }}
         scrolling='no'
         frameBorder='0'

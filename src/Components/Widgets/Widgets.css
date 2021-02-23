@@ -1,6 +1,11 @@
-.widget{
+.widget {
+    position: sticky;
+    align-self: start;
+    top: 56px;
     padding-top: 25px;
+    width: 300px;
 }
+
 .sponsored{
     margin-bottom: 10px;
     border-bottom: 1px solid grey;
@@ -40,6 +45,7 @@
 .sponsored__item-details > h3{
     font-size: 16px;
     color: #050505;
+    overflow-wrap: break-word;
 }
 
 .sponsored__item-details > p{
