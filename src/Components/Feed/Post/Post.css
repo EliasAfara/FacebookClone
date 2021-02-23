@@ -1,5 +1,5 @@
 .post{
-    width: 90%;
+    width: 80%;
     margin-right: auto;
     margin-left: auto;
     margin-top: 15px;
@@ -35,10 +35,11 @@
 
 .post__image > img {
     width: 100%;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
 }
 
 .post__options{
-    border-top: 1px solid lightgrey;
     display: flex;
     justify-content: space-evenly;
     font-size: medium;

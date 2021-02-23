@@ -64,6 +64,8 @@
 .storyReel{
     display: flex;
     position: relative;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* storyReel */
@@ -73,7 +75,7 @@
     left: calc(100% - 35px);
     justify-content: flex-end;
     top: calc(50% - 25px);
-    z-index: 100;
+    z-index: 1;
 }
 
 .next__story>.MuiIconButton-root {

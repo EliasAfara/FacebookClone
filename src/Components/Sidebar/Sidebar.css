@@ -1,6 +1,6 @@
 .sidebar{
     --offset: 56px;
-    flex: 1;
+    flex: 0.33;
     position: sticky;
     align-self: start;
     top: var(--offset);

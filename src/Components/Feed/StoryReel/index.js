@@ -18,6 +18,12 @@ const StoryReel = () => {
         image={user?.picture}
       />
 
+      {/* <Story
+        profileSrc='https://instagram.fbey4-1.fna.fbcdn.net/v/t51.2885-19/s150x150/64543472_400523757481104_8253502120007827456_n.jpg?_nc_ht=instagram.fbey4-1.fna.fbcdn.net&_nc_ohc=m9OhBU01v_0AX-ux-Wz&tp=1&oh=7313ac35f1516929c072e8d436287a23&oe=605CE663'
+        title='Cristiano Ronaldo'
+        image='https://instagram.fbey4-1.fna.fbcdn.net/v/t51.2885-15/e35/c0.322.828.828a/152947452_176276740695785_5420408323133371727_n.jpg?_nc_ht=instagram.fbey4-1.fna.fbcdn.net&amp;_nc_cat=1&amp;_nc_ohc=Gre6po2Hr60AX8NwRGh&amp;tp=1&amp;oh=d1f4e4cd62ec50bc8336c636b94d0291&amp;oe=60374A96&amp;ig_cache_key=MjUxNTAxNDM5NzQ0MTc4MjY2NQ%3D%3D.2'
+      /> */}
+
       <Story
         profileSrc='https://instagram.fbey4-1.fna.fbcdn.net/v/t51.2885-19/s150x150/135811429_139036817943437_5718038198453340319_n.jpg?_nc_ht=instagram.fbey4-1.fna.fbcdn.net&_nc_ohc=X-B1T92UnqEAX8q1yH7&tp=1&oh=48ebc7b6a8df354b6a5a09a6cd5cab63&oe=605CA17D'
         title='Kendall Jenner'

@@ -1,9 +1,9 @@
 .widget {
     position: sticky;
     align-self: start;
+    width: 300px;
     top: 56px;
     padding-top: 25px;
-    width: 300px;
 }
 
 .sponsored{
@@ -51,4 +51,8 @@
 .sponsored__item-details > p{
     font-size: 14px;
     color: #65676B;
+}
+
+.widget > iframe {
+    width: 100%;
 }
