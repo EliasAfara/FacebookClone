@@ -7,7 +7,6 @@ export const actionTypes = {
 };
 
 const reducer = (state, action) => {
-  console.log(action);
   const { type, payload } = action;
 
   switch (type) {
